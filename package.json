@@ -1,0 +1,15 @@
+{
+  "name": "elm-live-tailwind-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "elm-live src/Main.elm --port=4321 --dir=./dist --start=dist/index.html -- --output=./dist/elm.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "elm-live": "^4.0.2"
+  }
+}
